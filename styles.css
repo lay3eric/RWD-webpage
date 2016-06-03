@@ -37,14 +37,7 @@ p {
 	margin: 0 0 20px;
 }
 
-#header img{
-	display: block;
-	margin: auto;
-	max-width: 20%;
-	max-height: 20%;
-}
 
-/*
 @media screen and (min-width: 600px) {
 	#header img{
 		display: block;
@@ -61,7 +54,7 @@ p {
 		max-width: 10%;
 		max-height: auto;
 	}
-}*/
+}
 
 /* content */
 #content {
