@@ -1,0 +1,157 @@
+/* Simple Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* All CSS*/
+body {
+	font-family: Helvetica, Arial, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #959090;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, times, sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	color: black;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	font-family: Arial, fantasy, sans-serif;
+}
+
+/* Max Block*/
+#container {
+	margin: 20px auto;
+	width: 90vw;
+}
+
+
+#header {
+	margin: 0 0 20px;
+}
+
+@media screen and (min-width: 600px) {
+	#header img{
+		display: block;
+		margin: auto;
+		max-width: 40%;
+		max-height: auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#header img{
+		display: block;
+		margin: auto;
+		max-width: 10%;
+		max-height: auto;
+	}
+}
+
+/* content */
+#content {
+	margin: 10px auto 20px;
+	max-width: 800px;
+	padding: 10px;
+	text-align: center;
+}
+
+#content p {
+	padding: 10px;
+	font-style: italic;
+	text-align: justify;
+}
+
+/* Iofo */
+#info {
+	width: 90vw;
+	margin: 10px auto;
+	display: table;
+	text-align: center;
+	display: table;
+}
+
+.family {
+	padding: 10px;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.family:hover {
+	padding: 10px;
+	text-align: center;
+	opacity: 1.0;
+}
+
+#pics {
+
+}
+
+#pics img{
+	max-height: 70%;
+	max-width: 70%;
+}
+
+#pics img:hover{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#bucks {
+	width: 400px;
+	height: : 300px;
+	margin: 10px;
+	float: left;
+	border: solid 2px black;
+}
+#lion {
+	width: 400px;
+	height: : 300px;
+	margin: 10px;
+	float: left;
+	border: solid 2px black;
+}
+#eagle {
+	width: 400px;
+	height: : 300px;
+	margin: 10px;
+	float: left;
+	border: solid 2px black;
+}
+#dragon {
+	width: 400px;
+	height: : 300px;
+	margin: 10px;
+	float: left;
+	border: solid 2px black;
+}
+#wolf {
+	width: 400px;
+	height: : 300px;
+	margin: 10px;
+	float: left;
+	border: solid 2px black;
+}
+#rose {
+	width: 400px;
+	height: : 300px;
+	margin: 10px;
+	float: left;
+	border: solid 2px black;
+}
+
+#footer {
+	text-align: center;
+}
+
+#footer img {
+	display: block;
+	margin: auto;
+}
