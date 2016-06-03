@@ -63,7 +63,7 @@ p {
 
 @media screen and (max-width: 600px) {
 	#header img{
-		max-width: 30%;
+		max-width: 15%;
 	}
 }
 
