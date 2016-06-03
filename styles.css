@@ -101,8 +101,6 @@ p {
 	width: 90vw;
 	margin: 10px auto;
 	display: table;
-	text-align: center;
-	display: table;
 }
 
 .family {
@@ -131,9 +129,11 @@ p {
 	max-width: 70%;
 }
 
-#pics img:hover{
-	max-height: 100%;
-	max-width: 100%;
+@media screen and (min-width: 960px) {
+	#pics img:hover{
+		max-height: 100%;
+		max-width: 100%;
+	}
 }
 
 #bucks {
