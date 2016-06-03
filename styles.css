@@ -14,12 +14,23 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Georgia, times, sans-serif;
-	font-size: 30px;
-	font-weight: 200;
-	color: black;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
+		font-family: Georgia, times, sans-serif;
+		font-weight: 200;
+		color: black;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+	}
+
+@media screen and (min-width: 600px) {
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 30px;
+	}
 }
 
 p {
