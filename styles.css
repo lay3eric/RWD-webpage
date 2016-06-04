@@ -43,7 +43,7 @@ p {
 /* Max Block*/
 #container {
 	margin: 20px auto;
-	width: 50vw;
+	width: 100vw;
 }
 
 
@@ -71,7 +71,7 @@ p {
 */
 /* content */
 #content {
-	max-width: 1000px;	
+	max-width: 100%;	
 	margin: 10px auto 20px;
 	padding: 10px;
 	text-align: center;
@@ -102,7 +102,7 @@ p {
 
 /* Iofo */
 #info {
-	width: 1000px;
+	width: 100%;
 	margin: 10px auto;
 	display: table;
 }
