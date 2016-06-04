@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: Helvetica, "Lucida sans", serif;
+	font-family: Georgia, arial, serif;
 	font-size: 16px;
 	font-weight: lighter;
 }
@@ -20,18 +20,135 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	color: #9c9797;
-	font-family: Georgia, times, sans-serif;
+	font-family: Helvetica, times, sans-serif;
 	font-style: italic;
 	font-weight: bolder;
 }
 
 /* HEAD */
-.header {
+#header {
 	border: solid 1px red;
 	text-align: center;
 }
 
-#logo img {
-	max-width: 30%;
+#header img {
+	max-width: 20%;
 	max-height: auto;
 }
+
+/* Body */
+.body::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+[class*="col-"] {
+	float: left;
+	border: solid 1px blue;
+}
+
+/* Body-List */
+#list {
+	border: solid 1px black;
+	color: #000;
+}
+#list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#list section {
+	padding: 10px;
+	margin: 10px;
+	background: #42d09e;
+}
+#list li {
+	padding: 10px;
+	margin: 10px;
+	background: #42d09e;
+	color: 000;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.12), 1px 1px 2px rgba(0,0,0,0.24);
+}
+@media only screen and (min-width:1080px) {
+	#list li:hover{
+		background: #2a8a69;
+		color: #fff;
+		border: none;
+		box-shadow: none;
+	}
+}
+
+
+/* Body-Image */
+#content {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+#family img {
+	max-width: 100%;
+	max-height: auto;
+}
+
+#bucks h4, #lion h4, #eagle h4, #dragon h4, #wolf h4, #rose h4{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#bucks p, #lion p, #eagle p, #dragon p, #wolf p, #rose p{
+	margin: 5px;
+	text-align: center;
+	font-size: 24px;
+	font-family: cursive, fantasy, sans-serif;
+	color: red;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.24), 1px 1px 2px rgba(0,0,0,0.36);
+}
+
+/* Footer */
+#footer {
+	text-align: center;
+}
+#footer img {
+	max-width: 20%;
+}
+
+
+/* 12 Columns*/
+/* For Mobile phone */
+[class*="col-"] {
+	width: 100%;
+	padding: 5px 10px;
+}
+
+@media only screen and (min-width:1080px) {
+	.col-d-1 {width:8.33%;}
+	.col-d-2 {width:16.66%;}
+	.col-d-3 {width:25%;}
+	.col-d-4 {width:33.33%;}
+	.col-d-5 {width:41.66%;}
+	.col-d-6 {width:50%;}
+	.col-d-7 {width:58.33%;}
+	.col-d-8 {width:66.66%;}
+	.col-d-9 {width:75%;}
+	.col-d-10 {width:83.33%;}
+	.col-d-11 {width:91.66%;}
+	.col-d-12 {width:100%;}
+	
+}
+
+/*
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+*/
+
