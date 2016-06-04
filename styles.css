@@ -103,7 +103,7 @@ p {
 
 /* Iofo */
 #info {
-	width: 100%;
+	max-width: 100%;
 	margin: 10px auto;
 	display: table;
 }
@@ -149,7 +149,7 @@ p {
 }
 
 #bucks {
-	width: 400px;
+	max-width: 400px;
 	height: : 300px;
 	margin: 10px;
 	float: left;
