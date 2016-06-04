@@ -21,13 +21,20 @@ h1, h2, h3, h4, h5, h6 {
 		-webkit-font-smoothing: antialiased;
 		text-rendering: optimizeLegibility;
 	}
-
-@media screen and (max-width: 599px) {
+/*
+@media screen and (min-width: 600px) {
 	h1, h2, h3, h4, h5, h6 {
-		font-size: 60px;
+		font-size:10px;
 	}
 }
 
+@media screen and (max-width: 599px) {
+	h1, h2, h3, h4, h5, h6 {
+		font-size:40px;
+	}
+}
+
+*/
 p {
 	font-family: Arial, fantasy, sans-serif;
 	font-size: 16px;
@@ -42,14 +49,14 @@ p {
 
 #header {
 	margin: 0 0 20px;
+	text-align: center;
 }
 
 #header img{
-		display: block;
-		margin: auto;
+		max-width: 40%;
 		max-height: auto;
 	}
-
+/*
 @media screen and (min-width: 600px) {
 	#header img{
 		max-width: 40%;
@@ -61,20 +68,21 @@ p {
 		max-width: 15%;
 	}
 }
-
+*/
 /* content */
 #content {
-		margin: 10px auto 20px;
-		padding: 10px;
-		text-align: center;
-	}
+	max-width: 800px;	
+	margin: 10px auto 20px;
+	padding: 10px;
+	text-align: center;
+}
 	
 #content p {
 	padding: 10px;
 	font-style: italic;
 	text-align: justify;
 }
-
+/*
 @media screen and (min-width: 600px) {
 	#content {
 		max-width: 800px;
@@ -90,6 +98,7 @@ p {
 		font-size: 20px;
 	}
 }
+*/
 
 /* Iofo */
 #info {
@@ -101,8 +110,15 @@ p {
 .family {
 	padding: 10px;
 	text-align: center;
+	opacity: 0.7;
 }
 
+.family:hover {
+	padding: 10px;
+	text-align: center;
+	opacity: 1.0;
+}
+/*
 @media screen and (min-width: 600px) {
 	.family {
 		opacity: 0.7;
@@ -114,7 +130,7 @@ p {
 		opacity: 1.0;
 	}
 }
-
+*/
 #pics {
 
 }
