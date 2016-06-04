@@ -1,119 +1,58 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>RWD Website</title>
+		<title>A Song of Ice and Fire</title>
 		
 		<link href="styles.css" rel="stylesheet">
-		<!--
-		<link href="styles.css" rel="stylesheet" media="screen and (max-width=599px)">
-		<link href="styles.css" rel="stylesheet" media="screen and (min-width=600px)">
-		-->
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
 	</head>
 	<body>
 		
-		<div id="container">
-			
-			<div id="header">
-				<a href="/" title="Latin Website" id="logo">
-					<img src="images/title-1.jpg">
-				</a>
-			</div>
-			
-			<div id="content">
-				<h1>Valar Morghulis, Valar Dohaeris</h1>
-				
-				<p>Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-				
-				<p>Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-			</div>
-			
-			<div id="info" class="box">
-				<div id="bucks" class="family">
-					<div id="pics">
-						<a href="/" title="Bucks">
-							<img src="images/family-1.jpg">
-						</a>
-					</div>
-					<div id="intro">
-						<h2>Baratheon</h2>
-						<p>Ours is the fury.</p>
-					</div>
-				</div>
-				
-				<div id="lion" class="family">
-					<div id="pics">
-						<a href="/" title="Lion">
-							<img src="images/family-2.jpg">
-						</a>
-					</div>
-					<div id="intro">
-						<h2>Lannister</h2>
-						<p>Hear me roar.</p>
-					</div>
-				</div>
-				
-				<div id="eagle" class="family">
-					<div id="pics">
-						<a href="/" title="Eagle">
-							<img src="images/family-3.jpg">
-						</a>
-					</div>
-					<div id="intro">
-						<h2>Arryn</h2>
-						<p>As High as Honor.</p>
-					</div>
-				</div>
-				
-				<div id="dragon" class="family">
-					<div id="pics">
-						<a href="/" title="Dragon">
-							<img src="images/family-4.jpg">
-						</a>
-					</div>
-					<div id="intro">
-						<h2>Targaryen</h2>
-						<p>Fire and blood.</p>
-					</div>
-				</div>
-				
-				<div id="wolf" class="family">
-					<div id="pics">
-						<a href="/" title="Wolf">
-							<img src="images/family-5.jpg">
-						</a>
-					</div>
-					<div id="intro">
-						<h2>Stark</h2>
-						<p>Winter is coming.</p>
-					</div>
-				</div>
-				
-				<div id="rose" class="family">
-					<div id="pics">
-						<a href="/" title="Rose">
-							<img src="images/family-6.jpg">
-						</a>
-					</div>
-					<div id="intro">
-						<h2>Tyrell</h2>
-						<p>Growing strong.</p>
-					</div>
-				</div>
-			</div>
-			
-			<div id="footer">
-				<div>
-					<img src="images/wolf.png">
-				</div>
-				&copy;Eric 2016
-			</div>
-			
+		<div id="logo" class="header">
+			<img src="images/title-1.jpg">
+			<h1>Valar Morghulis, Valar Dohaeris</h1>
 		</div>
 		
+		<div id="body">
+			
+			<div id="list" class="col-6 col-d-3">
+				<p>House</p>
+				<ul>
+					<li>Baratheon</li>
+					<li>Lannister</li>
+					<li>Arryn</li>
+					<li>Targaryen</li>
+					<li>Stark</li>
+					<li>Tyrell</li>
+				</ul>
+			</div>
+			
+			<div id="family" class="col-6 col-d-9">
+				<div id="bucks" class="col-6 col-d-3">
+					<img src="images/family-1.jpg">
+					<h4>Baratheon</h4>
+					<p>Ours is the fury.</p>
+				</div>
+				
+				<div id="lion" class="col-6 col-d-3">
+					<img src="images/family-2.jpg">
+					<h4>Lannister</h4>
+					<p>Hear me roar.</p>
+				</div>
+				
+				<div id="Eagle" class="col-6 col-d-3">
+					<img src="images/family-3.jpg">
+					<h4>Arryn</h4>
+					<p>As High as Honor.</p>
+				</div>
+			</div>
+		</div>
 		
+		<div id="footer">
+			<img src="images/wolf.png">
+			<p>&copy;Eric 2016</p>
+		</div>
 		
 	</body>
 </html>

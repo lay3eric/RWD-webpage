@@ -1,201 +1,37 @@
-/* Simple Reset*/
+/* Simple Reset CSS */
 
 * {
-	margin: 0;
-	padding: 0;
+	box-sizing: border-box;
 }
 
-/* All CSS*/
 body {
-	font-family: Helvetica, Arial, serif;
-	font-size: 14px;
-	font-weight: normal;
-	color: #959090;
+	font-family: Helvetica, "Lucida sans", serif;
+	font-size: 16px;
+	font-weight: lighter;
 }
 
 h1, h2, h3, h4, h5, h6 {
-		font-family: Georgia, times, sans-serif;
-		font-weight: 200;
-		font-size: 40px;
-		color: black;
-		-webkit-font-smoothing: antialiased;
-		text-rendering: optimizeLegibility;
-	}
-/*
-@media screen and (min-width: 600px) {
-	h1, h2, h3, h4, h5, h6 {
-		font-size:10px;
-	}
-}
-
-@media screen and (max-width: 599px) {
-	h1, h2, h3, h4, h5, h6 {
-		font-size:40px;
-	}
-}
-
-*/
-p {
-	font-family: Arial, fantasy, sans-serif;
-	font-size: 16px;
-}
-
-/* Max Block*/
-#container {
-	margin: 20px auto;
-	width: 80vw;
-}
-
-
-#header {
-	margin: 0 0 20px;
-	text-align: center;
-}
-
-#header img{
-	max-width: 40%;
-	max-height: auto;
-}
-
-/*
-@media screen and (min-width: 600px) {
-	#header img{
-		max-width: 40%;
-	}
-}
-
-@media screen and (max-width: 599px) {
-	#header img{
-		max-width: 15%;
-	}
-}
-*/
-/* content */
-#content {
-	max-width: 100%;	
-	margin: 10px auto 20px;
-	padding: 10px;
-	text-align: center;
-}
-	
-#content p {
-	padding: 10px;
-	font-style: italic;
-	text-align: justify;
-}
-/*
-@media screen and (min-width: 600px) {
-	#content {
-		max-width: 800px;
-	}
-}
-
-@media screen and (max-width: 599px) {
-	#content {
-		max-width: 80%;
-	}
-	#content p {
-		padding: 10px;
-		font-size: 20px;
-	}
-}
-*/
-
-/* Iofo */
-#info {
-	max-width: 100%;
 	margin: 10px auto;
-	display: table;
+	font-size: 30px;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
-.family {
-	padding: 10px;
-	text-align: center;
-	opacity: 0.7;
+p {
+	color: #9c9797;
+	font-family: Georgia, times, sans-serif;
+	font-style: italic;
+	font-weight: bolder;
 }
 
-.family:hover {
-	padding: 10px;
-	text-align: center;
-	opacity: 1.0;
-}
-/*
-@media screen and (min-width: 600px) {
-	.family {
-		opacity: 0.7;
-	}
-	
-	.family:hover {
-		padding: 10px;
-		text-align: center;
-		opacity: 1.0;
-	}
-}
-*/
-#pics {
-
-}
-
-#pics img{
-	max-height: 70%;
-	max-width: 70%;
-}
-
-@media screen and (min-width: 600px) {
-	#pics img:hover{
-		max-height: 100%;
-		max-width: 100%;
-	}
-}
-
-#bucks {
-	max-width: 400px;
-	height: : 300px;
-	margin: 10px;
-	float: left;
-	border: solid 2px black;
-}
-#lion {
-	width: 400px;
-	height: : 300px;
-	margin: 10px;
-	float: left;
-	border: solid 2px black;
-}
-#eagle {
-	width: 400px;
-	height: : 300px;
-	margin: 10px;
-	float: left;
-	border: solid 2px black;
-}
-#dragon {
-	width: 400px;
-	height: : 300px;
-	margin: 10px;
-	float: left;
-	border: solid 2px black;
-}
-#wolf {
-	width: 400px;
-	height: : 300px;
-	margin: 10px;
-	float: left;
-	border: solid 2px black;
-}
-#rose {
-	width: 400px;
-	height: : 300px;
-	margin: 10px;
-	float: left;
-	border: solid 2px black;
-}
-
-#footer {
+/* HEAD */
+.header {
+	border: solid 1px red;
 	text-align: center;
 }
 
-#footer img {
-	display: block;
-	margin: auto;
+#logo img {
+	max-width: 30%;
+	max-height: auto;
 }
