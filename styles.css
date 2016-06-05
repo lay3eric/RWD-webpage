@@ -29,6 +29,7 @@ p {
 	font-family: Helvetica, times, sans-serif;
 	font-style: italic;
 	font-weight: bolder;
+	text-align: justify;
 }
 
 /* HEAD */
@@ -40,9 +41,14 @@ p {
 #header img {
 	max-width: 50%;
 	max-height: auto;
+	margin: 10px auto 0;
 }
 
 @media only screen and (min-width:600px), screen and (min-width:1080px) {
+	#header h1{
+		font-size: 40px;
+		color: #2a2828;
+	}
 	#header img {
 		max-width: 20%;
 		max-height: auto;
@@ -66,39 +72,68 @@ p {
 	#list {
 		display: none;
 	}
+	.family-member {
+		display: none;
+	}
 }
+
 
 @media only screen and (min-width:600px), screen and (min-width:1080px) {
 	#list {
 		border: solid 1px black;
 		color: #000;
+		position: relative;
 	}
 	#list ul {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
-	#list section {
+	.family-name section {
 		padding: 10px 30px;
-		margin: 10px 20px;
+		margin: 10px 0;
 		background: #42d09e;
 	}
-	#list li {
+	.family-name li {
 		padding: 10px 30px;
-		margin: 10px 20px;
+		margin: 10px 0;
 		background: #42d09e;
 		color: 000;
 		box-shadow: 1px 1px 3px rgba(0,0,0,0.12), 1px 1px 2px rgba(0,0,0,0.24);
 	}
+	.family-name {
+		max-width: 80%;
+		border: solid 2px red;
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (min-width:1080px) {
-	#list li:hover{
+	.family-name {
+		position: relative;
+	}
+	
+	.family-name li:hover {
 		background: #2a8a69;
 		color: #fff;
 		border: none;
 		box-shadow: none;
 	}
+	/*
+	.family-member {
+		width: 200px;
+		border: dashed 1px green;
+		position: absolute;
+		left: 90%;
+		top: 20px;
+		z-index: 1;
+	}
+	.family-member li{
+		margin: 0;
+		padding: 10px;
+		background: #2a8a69;
+	}
+	*/
 }
 
 
@@ -142,6 +177,22 @@ p {
 [class*="col-"] {
 	width: 100%;
 	padding: 5px 10px;
+}
+
+@media only screen and (min-width:600px) {
+	.col-d-1 {width:8.33%;}
+	.col-d-2 {width:16.66%;}
+	.col-d-3 {width:25%;}
+	.col-d-4 {width:33.33%;}
+	.col-d-5 {width:41.66%;}
+	.col-d-6 {width:50%;}
+	.col-d-7 {width:58.33%;}
+	.col-d-8 {width:66.66%;}
+	.col-d-9 {width:75%;}
+	.col-d-10 {width:83.33%;}
+	.col-d-11 {width:91.66%;}
+	.col-d-12 {width:100%;}
+	
 }
 
 @media only screen and (min-width:1080px) {
