@@ -12,7 +12,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 10px auto;
-	font-size: 15px;
+	font-size: 20px;
 	color: #000;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -38,9 +38,17 @@ p {
 }
 
 #header img {
-	max-width: 20%;
+	max-width: 50%;
 	max-height: auto;
 }
+
+@media only screen and (min-width:600px), screen and (min-width:1080px) {
+	#header img {
+		max-width: 20%;
+		max-height: auto;
+	}
+}
+
 
 /* Body */
 .body::after {
