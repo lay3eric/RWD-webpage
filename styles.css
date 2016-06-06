@@ -80,7 +80,7 @@ p {
 
 @media only screen and (min-width:600px), screen and (min-width:1080px) {
 	#list {
-		/*border: solid 1px black;*/
+		border: solid 1px black;
 		color: #000;
 		position: relative;
 	}
@@ -101,16 +101,25 @@ p {
 		color: 000;
 		box-shadow: 1px 1px 3px rgba(0,0,0,0.12), 1px 1px 2px rgba(0,0,0,0.24);
 	}
+}
+
+@media only screen and (min-width:600px) and (max-width:1079px) {
 	.family-name {
 		max-width: 80%;
-		/*border: solid 2px red;*/
 		margin: 0 auto;
 	}
+	
+	.family-member {
+		display: none;
+	}
 }
+
 
 @media only screen and (min-width:1080px) {
 	.family-name {
 		position: relative;
+		max-width: 70%;
+		margin: 0 10%;
 	}
 	
 	.family-name li:hover {
@@ -119,13 +128,13 @@ p {
 		border: none;
 		box-shadow: none;
 	}
-	/*
+	
 	.family-member {
-		width: 200px;
+		width: 50%;
 		border: dashed 1px green;
 		position: absolute;
-		left: 90%;
-		top: 20px;
+		left: 80%;
+		top: 50px;
 		z-index: 1;
 	}
 	.family-member li{
@@ -133,7 +142,7 @@ p {
 		padding: 10px;
 		background: #2a8a69;
 	}
-	*/
+	
 }
 
 
